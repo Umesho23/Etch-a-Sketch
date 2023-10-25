@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character set definition -->
+    <meta charset="UTF-8">
+
+    <!-- Linking the external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Setting the title of the web page -->
+    <title>Etch-a-Sketch</title>
+
+    <!-- Linking the external JavaScript file with defer attribute (ensures that the script will run after the page is parsed) -->
+    <script src="sketch.js" defer></script>
+</head>
+
+<body>
+    <!-- The main heading/title of the page -->
+    <header id="Title">Etch A Sketch</header>
+
+    <!-- Container for all the tool elements like slider, buttons etc. -->
+    <div class="tools">
+
+        <!-- Container for the slider to control the grid size -->
+        <div class="slidecontainer">
+
+            <!-- Slider input ranging from 4 to 100 with default value as 4 -->
+            <input type="range" min="4" max="100" value="4" class="slider" id="myRange">
+
+            <!-- Display area for the value of the slider (grid size) -->
+            <p>Grid Size: <span id="valueOutput"></span></p>
+        </div>
+
+        <!-- Button to activate the "Rainbow" mode -->
+        <button id="btn1">Rainbow</button>
+
+        <!-- Button to activate the "Eraser" mode -->
+        <button id="btn2">Eraser</button>
+
+        <!-- Button to reset the sketchpad -->
+        <button id="btn3">Reset</button>
+    </div>
+
+    <!-- Container for the color picker input -->
+    <div class="color-container">
+
+        <!-- Color input to allow users to pick a color, default is set to red -->
+        <input type="color" id="color-picker2" class="color-picker" value="ff0000">
+    </div>
+</body>
+
+</html>

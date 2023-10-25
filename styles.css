@@ -1,0 +1,97 @@
+/* Styling for the main header of the page */
+header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+
+/* Global styling for the entire HTML document and body element */
+html,
+body {
+  margin: 0;                          /* Remove any default margins */
+  padding: 0;                         /* Remove any default padding */
+  background-color: rgb(31, 92, 112); /* Set a background color */
+  color: white;                       /* Set the font color to white */
+}
+
+/* Styling for individual grid boxes */
+.box {
+  border: 1px solid rgb(187, 187, 187); /* Grayish border around the box */
+  margin: auto;                          /* Center the boxes */
+  background-color: rgb(255, 255, 255); /* White background color for the boxes */
+  padding: 0px;                         /* No padding inside the boxes */
+}
+
+/* Styling for the grid container */
+#Grid {
+  margin: auto;               /* Center the grid on the page */
+  justify-content: center;    /* Center the content inside the grid */
+  column-gap: 0px;            /* No gap between the columns */
+  border: 0px;                /* No border for the grid */
+}
+
+/* Styling for the main container wrapping the grid */
+#Grid-Main {
+  margin: auto;                   /* Center the main container on the page */
+  margin-top: 45px;               /* Add a top margin */
+  margin-bottom: 200px;           /* Add a bottom margin */
+  justify-content: center;        /* Center the content inside the main container */
+  border: 15px solid rgb(187, 187, 187); /* Grayish border around the main container */
+  max-width: 700px;               /* Set a maximum width */
+  max-height: 700px;              /* Set a maximum height */
+}
+
+/* Generic styling for rows (not used in the provided HTML) */
+.row {
+  margin: auto;          /* Center the rows */
+  text-align: center;    /* Center the content inside the rows */
+}
+
+/* Styling for the tools section */
+.tools {
+  text-align: center;    /* Center the content inside the tools section */
+  position: relative;    /* Set a relative positioning for any potential child elements */
+}
+
+/* Styling for the color picker input */
+.color-picker {
+  border-radius: 50%;                /* Make the color picker circular */
+  border: 2px;                       /* Set a 2px border (note: the border style/color is not defined) */
+  background-color: transparent;     /* Make the background transparent */
+  display: inline-block;             /* Display it inline but still allow block properties */
+  height: 61px;                      /* Set a fixed height */
+  width: 109px;                      /* Set a fixed width */
+}
+
+/* Styling for the container wrapping the color picker */
+.color-container {
+  margin: auto;          /* Center the container on the page */
+  text-align: center;    /* Center the content inside the container */
+  margin-top: 15px;      /* Add a top margin */
+}
+
+/* Styling for buttons */
+button {
+  border-radius: 5px;                                  /* Rounded corners for the button */
+  background-color: white;                             /* White background color */
+  color: black;                                        /* Black font color */
+  font-size: 40px;                                     /* Large font size */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  /* Font family for the text */
+  font-weight: light;                                  /* Light font weight */
+}
+
+/* Styling for paragraph elements */
+p {
+  color: rgb(255, 255, 255);                           /* White font color */
+  font-size: 25px;                                     /* Font size of 25px */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  /* Font family for the text */
+  font-weight: light;                                  /* Light font weight */
+  margin-top: 0px;                                     /* No top margin */
+}
+
+/* Styling for the slider */
+.slider {
+  height: 50px;               /* Set a fixed height */
+  width: 200px;               /* Set a fixed width */
+  margin-top: 50px;           /* Add a top margin */
+}
